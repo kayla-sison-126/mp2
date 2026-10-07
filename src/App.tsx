@@ -10,7 +10,7 @@ export default function App() {
   return (
     <BrowserRouter basename={import.meta.env.BASE_URL}>
       <nav>
-        <Link to="/">Pokedex</Link>
+        <Link to="/">Pokédex</Link>
         <Link to="/">Search</Link>
         <Link to="/gallery">Gallery</Link>
       </nav>

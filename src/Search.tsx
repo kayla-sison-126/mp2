@@ -70,8 +70,8 @@ export default function Search() {
   return (
     <div className="search-container">
       <header className="search-header">
-        <h1>Pokedex Search</h1>
-        <p>Look up any Pokemon and discover its basic information</p>
+        <h1>Pokédex Search</h1>
+        <p>Look up a Pokémon and discover its basic information</p>
       </header>
 
       <div className="controls">
