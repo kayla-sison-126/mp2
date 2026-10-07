@@ -94,7 +94,6 @@ export default function DetailView() {
     <div className="detail-container">
       <div className="detail-card-wrapper">
         <div className="detail-card">
-          {/* Top Prev / Next Navigation Arrows */}
           <div className="detail-nav-buttons">
             <button
               className="detail-arrow-btn"
@@ -112,7 +111,6 @@ export default function DetailView() {
             </button>
           </div>
 
-          {/* Main Content */}
           <div className="detail-body">
             <div className="detail-img-container">
               <img src={pokemon.sprites.front_default} alt={pokemon.name} />

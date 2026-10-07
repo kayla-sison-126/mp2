@@ -24,7 +24,6 @@ const POKEMON_TYPES = [ // all pokemon types!
   "Dark", "Steel", "Fairy", "Flying", "Psychic", "Bug", "All"
 ];
 
-// Helper to extract ID from URL string for sprites
 const getPokemonIdFromUrl = (url: string): number => {
   const parts = url.split("/").filter(Boolean);
   return parseInt(parts[parts.length - 1], 10);
